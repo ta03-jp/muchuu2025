@@ -1212,7 +1212,7 @@ function sendImageDataToAPI() {
     formData.append(fieldName, blob, `image${index}.png`);
   });
 
-  fetch("https://sensible-trusted-hare.ngrok-free.app/process_images", {
+  fetch("https://huge-nearly-puma.ngrok-free.app/process_images", {
     method: "POST",
     body: formData,
   })
@@ -1246,3 +1246,4 @@ function sendImageDataToAPI() {
       );
     });
 }
+
