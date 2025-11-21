@@ -1206,7 +1206,7 @@ function sendImageDataToAPI() {
     formData.append(`longshirt[]`, blob, `image${index}.png`);
   });
 
-  fetch("https://huge-nearly-puma.ngrok-free.app/process_images", {
+  fetch("https://unblushingly-unfrank-mara.ngrok-free.app/process_images", {
     method: "POST",
     body: formData,
   })
@@ -1240,6 +1240,7 @@ function sendImageDataToAPI() {
       );
     });
 }
+
 
 
 
